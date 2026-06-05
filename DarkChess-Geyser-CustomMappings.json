@@ -1,0 +1,167 @@
+{
+    "format_version":  2,
+    "items":  {
+                  "minecraft:paper":  [
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720000,
+                                              "bedrock_identifier":  "darkchess:hidden",
+                                              "display_name":  "暗棋",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_hidden",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720001,
+                                              "bedrock_identifier":  "darkchess:red_general",
+                                              "display_name":  "紅帥",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_general",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720002,
+                                              "bedrock_identifier":  "darkchess:red_advisor",
+                                              "display_name":  "紅仕",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_advisor",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720003,
+                                              "bedrock_identifier":  "darkchess:red_elephant",
+                                              "display_name":  "紅相",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_elephant",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720004,
+                                              "bedrock_identifier":  "darkchess:red_rook",
+                                              "display_name":  "紅車",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_rook",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720005,
+                                              "bedrock_identifier":  "darkchess:red_horse",
+                                              "display_name":  "紅馬",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_horse",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720006,
+                                              "bedrock_identifier":  "darkchess:red_cannon",
+                                              "display_name":  "紅炮",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_cannon",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720007,
+                                              "bedrock_identifier":  "darkchess:red_soldier",
+                                              "display_name":  "紅兵",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_red_soldier",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720009,
+                                              "bedrock_identifier":  "darkchess:black_general",
+                                              "display_name":  "黑將",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_general",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720010,
+                                              "bedrock_identifier":  "darkchess:black_advisor",
+                                              "display_name":  "黑士",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_advisor",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720011,
+                                              "bedrock_identifier":  "darkchess:black_elephant",
+                                              "display_name":  "黑象",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_elephant",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720012,
+                                              "bedrock_identifier":  "darkchess:black_rook",
+                                              "display_name":  "黑車",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_rook",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720013,
+                                              "bedrock_identifier":  "darkchess:black_horse",
+                                              "display_name":  "黑馬",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_horse",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720014,
+                                              "bedrock_identifier":  "darkchess:black_cannon",
+                                              "display_name":  "黑包",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_cannon",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720015,
+                                              "bedrock_identifier":  "darkchess:black_soldier",
+                                              "display_name":  "黑卒",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_black_soldier",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          },
+                                          {
+                                              "type":  "legacy",
+                                              "custom_model_data":  720017,
+                                              "bedrock_identifier":  "darkchess:selected",
+                                              "display_name":  "已選取棋子",
+                                              "bedrock_options":  {
+                                                                      "icon":  "darkchess_selected",
+                                                                      "creative_category":  "items"
+                                                                  }
+                                          }
+                                      ]
+              }
+}
