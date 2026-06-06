@@ -1221,6 +1221,16 @@
           "icon": "card_spades_2",
           "creative_category": "items"
         }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740052,
+        "bedrock_identifier": "cards:back",
+        "display_name": "Card Back",
+        "bedrock_options": {
+          "icon": "card_back",
+          "creative_category": "items"
+        }
       }
     ]
   }
