@@ -704,6 +704,16 @@
       },
       {
         "type": "legacy",
+        "custom_model_data": 730057,
+        "bedrock_identifier": "uno:back",
+        "display_name": "UNO Back",
+        "bedrock_options": {
+          "icon": "uno_back",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
         "custom_model_data": 740000,
         "bedrock_identifier": "cards:diamonds_3",
         "display_name": "diamonds_3",
@@ -1229,6 +1239,36 @@
         "display_name": "Card Back",
         "bedrock_options": {
           "icon": "card_back",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740053,
+        "bedrock_identifier": "cards:joker",
+        "display_name": "鬼牌",
+        "bedrock_options": {
+          "icon": "card_joker",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740054,
+        "bedrock_identifier": "cards:heartattack_icon",
+        "display_name": "心臟病",
+        "bedrock_options": {
+          "icon": "card_heartattack_icon",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740055,
+        "bedrock_identifier": "cards:oldmaid_icon",
+        "display_name": "抽鬼牌",
+        "bedrock_options": {
+          "icon": "card_oldmaid_icon",
           "creative_category": "items"
         }
       }
