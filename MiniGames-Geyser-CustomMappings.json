@@ -1272,6 +1272,68 @@
           "creative_category": "items"
         }
       }
+    ],
+    "minecraft:elytra": [
+      {
+        "type": "legacy",
+        "custom_model_data": 760000,
+        "bedrock_identifier": "bettertool:armored_elytra_leather",
+        "display_name": "皮革胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_leather",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 760001,
+        "bedrock_identifier": "bettertool:armored_elytra_chainmail",
+        "display_name": "鎖鏈胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_chainmail",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 760002,
+        "bedrock_identifier": "bettertool:armored_elytra_iron",
+        "display_name": "鐵製胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_iron",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 760003,
+        "bedrock_identifier": "bettertool:armored_elytra_golden",
+        "display_name": "黃金胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_golden",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 760004,
+        "bedrock_identifier": "bettertool:armored_elytra_diamond",
+        "display_name": "鑽石胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_diamond",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 760005,
+        "bedrock_identifier": "bettertool:armored_elytra_netherite",
+        "display_name": "獄髓胸甲鞘翅",
+        "bedrock_options": {
+          "icon": "armored_elytra_netherite",
+          "creative_category": "items"
+        }
+      }
     ]
   }
 }
