@@ -1,1387 +1,1277 @@
 {
-    "format_version":  2,
-    "items":  {
-                  "minecraft:paper":  [
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720000,
-                                              "bedrock_identifier":  "darkchess:hidden",
-                                              "display_name":  "暗棋",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_hidden",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720001,
-                                              "bedrock_identifier":  "darkchess:red_general",
-                                              "display_name":  "紅帥",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_general",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720002,
-                                              "bedrock_identifier":  "darkchess:red_advisor",
-                                              "display_name":  "紅仕",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_advisor",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720003,
-                                              "bedrock_identifier":  "darkchess:red_elephant",
-                                              "display_name":  "紅相",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_elephant",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720004,
-                                              "bedrock_identifier":  "darkchess:red_rook",
-                                              "display_name":  "紅車",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_rook",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720005,
-                                              "bedrock_identifier":  "darkchess:red_horse",
-                                              "display_name":  "紅馬",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_horse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720006,
-                                              "bedrock_identifier":  "darkchess:red_cannon",
-                                              "display_name":  "紅炮",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_cannon",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720007,
-                                              "bedrock_identifier":  "darkchess:red_soldier",
-                                              "display_name":  "紅兵",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_red_soldier",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720009,
-                                              "bedrock_identifier":  "darkchess:black_general",
-                                              "display_name":  "黑將",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_general",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720010,
-                                              "bedrock_identifier":  "darkchess:black_advisor",
-                                              "display_name":  "黑士",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_advisor",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720011,
-                                              "bedrock_identifier":  "darkchess:black_elephant",
-                                              "display_name":  "黑象",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_elephant",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720012,
-                                              "bedrock_identifier":  "darkchess:black_rook",
-                                              "display_name":  "黑車",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_rook",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720013,
-                                              "bedrock_identifier":  "darkchess:black_horse",
-                                              "display_name":  "黑馬",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_horse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720014,
-                                              "bedrock_identifier":  "darkchess:black_cannon",
-                                              "display_name":  "黑包",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_cannon",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720015,
-                                              "bedrock_identifier":  "darkchess:black_soldier",
-                                              "display_name":  "黑卒",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_black_soldier",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  720017,
-                                              "bedrock_identifier":  "darkchess:selected",
-                                              "display_name":  "已選取棋子",
-                                              "bedrock_options":  {
-                                                                      "icon":  "darkchess_selected",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730000,
-                                              "bedrock_identifier":  "uno:red_0",
-                                              "display_name":  "UNO red 0",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_0",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730001,
-                                              "bedrock_identifier":  "uno:red_1",
-                                              "display_name":  "UNO red 1",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_1",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730002,
-                                              "bedrock_identifier":  "uno:red_2",
-                                              "display_name":  "UNO red 2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730003,
-                                              "bedrock_identifier":  "uno:red_3",
-                                              "display_name":  "UNO red 3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730004,
-                                              "bedrock_identifier":  "uno:red_4",
-                                              "display_name":  "UNO red 4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730005,
-                                              "bedrock_identifier":  "uno:red_5",
-                                              "display_name":  "UNO red 5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730006,
-                                              "bedrock_identifier":  "uno:red_6",
-                                              "display_name":  "UNO red 6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730007,
-                                              "bedrock_identifier":  "uno:red_7",
-                                              "display_name":  "UNO red 7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730008,
-                                              "bedrock_identifier":  "uno:red_8",
-                                              "display_name":  "UNO red 8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730009,
-                                              "bedrock_identifier":  "uno:red_9",
-                                              "display_name":  "UNO red 9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730010,
-                                              "bedrock_identifier":  "uno:red_skip",
-                                              "display_name":  "UNO red Skip",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_skip",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730011,
-                                              "bedrock_identifier":  "uno:red_reverse",
-                                              "display_name":  "UNO red Reverse",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_reverse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730012,
-                                              "bedrock_identifier":  "uno:red_draw2",
-                                              "display_name":  "UNO red +2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_red_draw2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730013,
-                                              "bedrock_identifier":  "uno:yellow_0",
-                                              "display_name":  "UNO yellow 0",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_0",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730014,
-                                              "bedrock_identifier":  "uno:yellow_1",
-                                              "display_name":  "UNO yellow 1",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_1",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730015,
-                                              "bedrock_identifier":  "uno:yellow_2",
-                                              "display_name":  "UNO yellow 2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730016,
-                                              "bedrock_identifier":  "uno:yellow_3",
-                                              "display_name":  "UNO yellow 3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730017,
-                                              "bedrock_identifier":  "uno:yellow_4",
-                                              "display_name":  "UNO yellow 4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730018,
-                                              "bedrock_identifier":  "uno:yellow_5",
-                                              "display_name":  "UNO yellow 5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730019,
-                                              "bedrock_identifier":  "uno:yellow_6",
-                                              "display_name":  "UNO yellow 6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730020,
-                                              "bedrock_identifier":  "uno:yellow_7",
-                                              "display_name":  "UNO yellow 7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730021,
-                                              "bedrock_identifier":  "uno:yellow_8",
-                                              "display_name":  "UNO yellow 8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730022,
-                                              "bedrock_identifier":  "uno:yellow_9",
-                                              "display_name":  "UNO yellow 9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730023,
-                                              "bedrock_identifier":  "uno:yellow_skip",
-                                              "display_name":  "UNO yellow Skip",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_skip",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730024,
-                                              "bedrock_identifier":  "uno:yellow_reverse",
-                                              "display_name":  "UNO yellow Reverse",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_reverse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730025,
-                                              "bedrock_identifier":  "uno:yellow_draw2",
-                                              "display_name":  "UNO yellow +2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_yellow_draw2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730026,
-                                              "bedrock_identifier":  "uno:green_0",
-                                              "display_name":  "UNO green 0",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_0",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730027,
-                                              "bedrock_identifier":  "uno:green_1",
-                                              "display_name":  "UNO green 1",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_1",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730028,
-                                              "bedrock_identifier":  "uno:green_2",
-                                              "display_name":  "UNO green 2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730029,
-                                              "bedrock_identifier":  "uno:green_3",
-                                              "display_name":  "UNO green 3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730030,
-                                              "bedrock_identifier":  "uno:green_4",
-                                              "display_name":  "UNO green 4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730031,
-                                              "bedrock_identifier":  "uno:green_5",
-                                              "display_name":  "UNO green 5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730032,
-                                              "bedrock_identifier":  "uno:green_6",
-                                              "display_name":  "UNO green 6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730033,
-                                              "bedrock_identifier":  "uno:green_7",
-                                              "display_name":  "UNO green 7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730034,
-                                              "bedrock_identifier":  "uno:green_8",
-                                              "display_name":  "UNO green 8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730035,
-                                              "bedrock_identifier":  "uno:green_9",
-                                              "display_name":  "UNO green 9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730036,
-                                              "bedrock_identifier":  "uno:green_skip",
-                                              "display_name":  "UNO green Skip",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_skip",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730037,
-                                              "bedrock_identifier":  "uno:green_reverse",
-                                              "display_name":  "UNO green Reverse",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_reverse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730038,
-                                              "bedrock_identifier":  "uno:green_draw2",
-                                              "display_name":  "UNO green +2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_green_draw2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730039,
-                                              "bedrock_identifier":  "uno:blue_0",
-                                              "display_name":  "UNO blue 0",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_0",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730040,
-                                              "bedrock_identifier":  "uno:blue_1",
-                                              "display_name":  "UNO blue 1",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_1",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730041,
-                                              "bedrock_identifier":  "uno:blue_2",
-                                              "display_name":  "UNO blue 2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730042,
-                                              "bedrock_identifier":  "uno:blue_3",
-                                              "display_name":  "UNO blue 3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730043,
-                                              "bedrock_identifier":  "uno:blue_4",
-                                              "display_name":  "UNO blue 4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730044,
-                                              "bedrock_identifier":  "uno:blue_5",
-                                              "display_name":  "UNO blue 5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730045,
-                                              "bedrock_identifier":  "uno:blue_6",
-                                              "display_name":  "UNO blue 6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730046,
-                                              "bedrock_identifier":  "uno:blue_7",
-                                              "display_name":  "UNO blue 7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730047,
-                                              "bedrock_identifier":  "uno:blue_8",
-                                              "display_name":  "UNO blue 8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730048,
-                                              "bedrock_identifier":  "uno:blue_9",
-                                              "display_name":  "UNO blue 9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730049,
-                                              "bedrock_identifier":  "uno:blue_skip",
-                                              "display_name":  "UNO blue Skip",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_skip",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730050,
-                                              "bedrock_identifier":  "uno:blue_reverse",
-                                              "display_name":  "UNO blue Reverse",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_reverse",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730051,
-                                              "bedrock_identifier":  "uno:blue_draw2",
-                                              "display_name":  "UNO blue +2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_blue_draw2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730052,
-                                              "bedrock_identifier":  "uno:wild",
-                                              "display_name":  "UNO Wild",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_wild",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730053,
-                                              "bedrock_identifier":  "uno:wild_draw4",
-                                              "display_name":  "UNO Wild +4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_wild_draw4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  730057,
-                                              "bedrock_identifier":  "uno:back",
-                                              "display_name":  "UNO Back",
-                                              "bedrock_options":  {
-                                                                      "icon":  "uno_back",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740000,
-                                              "bedrock_identifier":  "cards:diamonds_3",
-                                              "display_name":  "diamonds_3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740001,
-                                              "bedrock_identifier":  "cards:diamonds_4",
-                                              "display_name":  "diamonds_4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740002,
-                                              "bedrock_identifier":  "cards:diamonds_5",
-                                              "display_name":  "diamonds_5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740003,
-                                              "bedrock_identifier":  "cards:diamonds_6",
-                                              "display_name":  "diamonds_6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740004,
-                                              "bedrock_identifier":  "cards:diamonds_7",
-                                              "display_name":  "diamonds_7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740005,
-                                              "bedrock_identifier":  "cards:diamonds_8",
-                                              "display_name":  "diamonds_8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740006,
-                                              "bedrock_identifier":  "cards:diamonds_9",
-                                              "display_name":  "diamonds_9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740007,
-                                              "bedrock_identifier":  "cards:diamonds_10",
-                                              "display_name":  "diamonds_10",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_10",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740008,
-                                              "bedrock_identifier":  "cards:diamonds_j",
-                                              "display_name":  "diamonds_j",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_j",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740009,
-                                              "bedrock_identifier":  "cards:diamonds_q",
-                                              "display_name":  "diamonds_q",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_q",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740010,
-                                              "bedrock_identifier":  "cards:diamonds_k",
-                                              "display_name":  "diamonds_k",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_k",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740011,
-                                              "bedrock_identifier":  "cards:diamonds_a",
-                                              "display_name":  "diamonds_a",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_a",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740012,
-                                              "bedrock_identifier":  "cards:diamonds_2",
-                                              "display_name":  "diamonds_2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_diamonds_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740013,
-                                              "bedrock_identifier":  "cards:clubs_3",
-                                              "display_name":  "clubs_3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740014,
-                                              "bedrock_identifier":  "cards:clubs_4",
-                                              "display_name":  "clubs_4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740015,
-                                              "bedrock_identifier":  "cards:clubs_5",
-                                              "display_name":  "clubs_5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740016,
-                                              "bedrock_identifier":  "cards:clubs_6",
-                                              "display_name":  "clubs_6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740017,
-                                              "bedrock_identifier":  "cards:clubs_7",
-                                              "display_name":  "clubs_7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740018,
-                                              "bedrock_identifier":  "cards:clubs_8",
-                                              "display_name":  "clubs_8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740019,
-                                              "bedrock_identifier":  "cards:clubs_9",
-                                              "display_name":  "clubs_9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740020,
-                                              "bedrock_identifier":  "cards:clubs_10",
-                                              "display_name":  "clubs_10",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_10",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740021,
-                                              "bedrock_identifier":  "cards:clubs_j",
-                                              "display_name":  "clubs_j",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_j",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740022,
-                                              "bedrock_identifier":  "cards:clubs_q",
-                                              "display_name":  "clubs_q",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_q",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740023,
-                                              "bedrock_identifier":  "cards:clubs_k",
-                                              "display_name":  "clubs_k",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_k",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740024,
-                                              "bedrock_identifier":  "cards:clubs_a",
-                                              "display_name":  "clubs_a",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_a",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740025,
-                                              "bedrock_identifier":  "cards:clubs_2",
-                                              "display_name":  "clubs_2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_clubs_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740026,
-                                              "bedrock_identifier":  "cards:hearts_3",
-                                              "display_name":  "hearts_3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740027,
-                                              "bedrock_identifier":  "cards:hearts_4",
-                                              "display_name":  "hearts_4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740028,
-                                              "bedrock_identifier":  "cards:hearts_5",
-                                              "display_name":  "hearts_5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740029,
-                                              "bedrock_identifier":  "cards:hearts_6",
-                                              "display_name":  "hearts_6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740030,
-                                              "bedrock_identifier":  "cards:hearts_7",
-                                              "display_name":  "hearts_7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740031,
-                                              "bedrock_identifier":  "cards:hearts_8",
-                                              "display_name":  "hearts_8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740032,
-                                              "bedrock_identifier":  "cards:hearts_9",
-                                              "display_name":  "hearts_9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740033,
-                                              "bedrock_identifier":  "cards:hearts_10",
-                                              "display_name":  "hearts_10",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_10",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740034,
-                                              "bedrock_identifier":  "cards:hearts_j",
-                                              "display_name":  "hearts_j",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_j",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740035,
-                                              "bedrock_identifier":  "cards:hearts_q",
-                                              "display_name":  "hearts_q",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_q",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740036,
-                                              "bedrock_identifier":  "cards:hearts_k",
-                                              "display_name":  "hearts_k",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_k",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740037,
-                                              "bedrock_identifier":  "cards:hearts_a",
-                                              "display_name":  "hearts_a",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_a",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740038,
-                                              "bedrock_identifier":  "cards:hearts_2",
-                                              "display_name":  "hearts_2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_hearts_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740039,
-                                              "bedrock_identifier":  "cards:spades_3",
-                                              "display_name":  "spades_3",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_3",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740040,
-                                              "bedrock_identifier":  "cards:spades_4",
-                                              "display_name":  "spades_4",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_4",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740041,
-                                              "bedrock_identifier":  "cards:spades_5",
-                                              "display_name":  "spades_5",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_5",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740042,
-                                              "bedrock_identifier":  "cards:spades_6",
-                                              "display_name":  "spades_6",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_6",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740043,
-                                              "bedrock_identifier":  "cards:spades_7",
-                                              "display_name":  "spades_7",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_7",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740044,
-                                              "bedrock_identifier":  "cards:spades_8",
-                                              "display_name":  "spades_8",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_8",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740045,
-                                              "bedrock_identifier":  "cards:spades_9",
-                                              "display_name":  "spades_9",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_9",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740046,
-                                              "bedrock_identifier":  "cards:spades_10",
-                                              "display_name":  "spades_10",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_10",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740047,
-                                              "bedrock_identifier":  "cards:spades_j",
-                                              "display_name":  "spades_j",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_j",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740048,
-                                              "bedrock_identifier":  "cards:spades_q",
-                                              "display_name":  "spades_q",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_q",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740049,
-                                              "bedrock_identifier":  "cards:spades_k",
-                                              "display_name":  "spades_k",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_k",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740050,
-                                              "bedrock_identifier":  "cards:spades_a",
-                                              "display_name":  "spades_a",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_a",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740051,
-                                              "bedrock_identifier":  "cards:spades_2",
-                                              "display_name":  "spades_2",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_spades_2",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740052,
-                                              "bedrock_identifier":  "cards:back",
-                                              "display_name":  "Card Back",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_back",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740053,
-                                              "bedrock_identifier":  "cards:joker",
-                                              "display_name":  "鬼牌",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_joker",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740054,
-                                              "bedrock_identifier":  "cards:heartattack_icon",
-                                              "display_name":  "心臟病",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_heartattack_icon",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          },
-                                          {
-                                              "type":  "legacy",
-                                              "custom_model_data":  740055,
-                                              "bedrock_identifier":  "cards:oldmaid_icon",
-                                              "display_name":  "抽鬼牌",
-                                              "bedrock_options":  {
-                                                                      "icon":  "card_oldmaid_icon",
-                                                                      "creative_category":  "items"
-                                                                  }
-                                          }
-                                      ],
-                  "minecraft:elytra":  [
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760000,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_leather",
-                                               "display_name":  "皮革胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_leather",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  3
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  80
-                                                              }
-                                           },
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760001,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_chainmail",
-                                               "display_name":  "鎖鏈胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_chainmail",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  5
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  240
-                                                              }
-                                           },
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760002,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_iron",
-                                               "display_name":  "鐵製胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_iron",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  6
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  240
-                                                              }
-                                           },
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760003,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_golden",
-                                               "display_name":  "黃金胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_golden",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  5
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  112
-                                                              }
-                                           },
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760004,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_diamond",
-                                               "display_name":  "鑽石胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_diamond",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  8
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  528
-                                                              }
-                                           },
-                                           {
-                                               "type":  "legacy",
-                                               "custom_model_data":  760005,
-                                               "bedrock_identifier":  "bettertool:armored_elytra_netherite",
-                                               "display_name":  "獄髓胸甲鞘翅",
-                                               "bedrock_options":  {
-                                                                       "icon":  "armored_elytra_netherite",
-                                                                       "creative_category":  "items",
-                                                                       "protection_value":  8
-                                                                   },
-                                               "components":  {
-                                                                  "minecraft:equippable":  {
-                                                                                               "slot":  "chest"
-                                                                                           },
-                                                                  "minecraft:max_stack_size":  1,
-                                                                  "minecraft:max_damage":  592
-                                                              }
-                                           }
-                                       ]
-              }
+  "format_version": 2,
+  "items": {
+    "minecraft:paper": [
+      {
+        "type": "legacy",
+        "custom_model_data": 720000,
+        "bedrock_identifier": "darkchess:hidden",
+        "display_name": "暗棋",
+        "bedrock_options": {
+          "icon": "darkchess_hidden",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720001,
+        "bedrock_identifier": "darkchess:red_general",
+        "display_name": "紅帥",
+        "bedrock_options": {
+          "icon": "darkchess_red_general",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720002,
+        "bedrock_identifier": "darkchess:red_advisor",
+        "display_name": "紅仕",
+        "bedrock_options": {
+          "icon": "darkchess_red_advisor",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720003,
+        "bedrock_identifier": "darkchess:red_elephant",
+        "display_name": "紅相",
+        "bedrock_options": {
+          "icon": "darkchess_red_elephant",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720004,
+        "bedrock_identifier": "darkchess:red_rook",
+        "display_name": "紅車",
+        "bedrock_options": {
+          "icon": "darkchess_red_rook",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720005,
+        "bedrock_identifier": "darkchess:red_horse",
+        "display_name": "紅馬",
+        "bedrock_options": {
+          "icon": "darkchess_red_horse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720006,
+        "bedrock_identifier": "darkchess:red_cannon",
+        "display_name": "紅炮",
+        "bedrock_options": {
+          "icon": "darkchess_red_cannon",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720007,
+        "bedrock_identifier": "darkchess:red_soldier",
+        "display_name": "紅兵",
+        "bedrock_options": {
+          "icon": "darkchess_red_soldier",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720009,
+        "bedrock_identifier": "darkchess:black_general",
+        "display_name": "黑將",
+        "bedrock_options": {
+          "icon": "darkchess_black_general",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720010,
+        "bedrock_identifier": "darkchess:black_advisor",
+        "display_name": "黑士",
+        "bedrock_options": {
+          "icon": "darkchess_black_advisor",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720011,
+        "bedrock_identifier": "darkchess:black_elephant",
+        "display_name": "黑象",
+        "bedrock_options": {
+          "icon": "darkchess_black_elephant",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720012,
+        "bedrock_identifier": "darkchess:black_rook",
+        "display_name": "黑車",
+        "bedrock_options": {
+          "icon": "darkchess_black_rook",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720013,
+        "bedrock_identifier": "darkchess:black_horse",
+        "display_name": "黑馬",
+        "bedrock_options": {
+          "icon": "darkchess_black_horse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720014,
+        "bedrock_identifier": "darkchess:black_cannon",
+        "display_name": "黑包",
+        "bedrock_options": {
+          "icon": "darkchess_black_cannon",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720015,
+        "bedrock_identifier": "darkchess:black_soldier",
+        "display_name": "黑卒",
+        "bedrock_options": {
+          "icon": "darkchess_black_soldier",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 720017,
+        "bedrock_identifier": "darkchess:selected",
+        "display_name": "已選取棋子",
+        "bedrock_options": {
+          "icon": "darkchess_selected",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730000,
+        "bedrock_identifier": "uno:red_0",
+        "display_name": "UNO red 0",
+        "bedrock_options": {
+          "icon": "uno_red_0",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730001,
+        "bedrock_identifier": "uno:red_1",
+        "display_name": "UNO red 1",
+        "bedrock_options": {
+          "icon": "uno_red_1",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730002,
+        "bedrock_identifier": "uno:red_2",
+        "display_name": "UNO red 2",
+        "bedrock_options": {
+          "icon": "uno_red_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730003,
+        "bedrock_identifier": "uno:red_3",
+        "display_name": "UNO red 3",
+        "bedrock_options": {
+          "icon": "uno_red_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730004,
+        "bedrock_identifier": "uno:red_4",
+        "display_name": "UNO red 4",
+        "bedrock_options": {
+          "icon": "uno_red_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730005,
+        "bedrock_identifier": "uno:red_5",
+        "display_name": "UNO red 5",
+        "bedrock_options": {
+          "icon": "uno_red_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730006,
+        "bedrock_identifier": "uno:red_6",
+        "display_name": "UNO red 6",
+        "bedrock_options": {
+          "icon": "uno_red_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730007,
+        "bedrock_identifier": "uno:red_7",
+        "display_name": "UNO red 7",
+        "bedrock_options": {
+          "icon": "uno_red_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730008,
+        "bedrock_identifier": "uno:red_8",
+        "display_name": "UNO red 8",
+        "bedrock_options": {
+          "icon": "uno_red_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730009,
+        "bedrock_identifier": "uno:red_9",
+        "display_name": "UNO red 9",
+        "bedrock_options": {
+          "icon": "uno_red_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730010,
+        "bedrock_identifier": "uno:red_skip",
+        "display_name": "UNO red Skip",
+        "bedrock_options": {
+          "icon": "uno_red_skip",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730011,
+        "bedrock_identifier": "uno:red_reverse",
+        "display_name": "UNO red Reverse",
+        "bedrock_options": {
+          "icon": "uno_red_reverse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730012,
+        "bedrock_identifier": "uno:red_draw2",
+        "display_name": "UNO red +2",
+        "bedrock_options": {
+          "icon": "uno_red_draw2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730013,
+        "bedrock_identifier": "uno:yellow_0",
+        "display_name": "UNO yellow 0",
+        "bedrock_options": {
+          "icon": "uno_yellow_0",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730014,
+        "bedrock_identifier": "uno:yellow_1",
+        "display_name": "UNO yellow 1",
+        "bedrock_options": {
+          "icon": "uno_yellow_1",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730015,
+        "bedrock_identifier": "uno:yellow_2",
+        "display_name": "UNO yellow 2",
+        "bedrock_options": {
+          "icon": "uno_yellow_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730016,
+        "bedrock_identifier": "uno:yellow_3",
+        "display_name": "UNO yellow 3",
+        "bedrock_options": {
+          "icon": "uno_yellow_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730017,
+        "bedrock_identifier": "uno:yellow_4",
+        "display_name": "UNO yellow 4",
+        "bedrock_options": {
+          "icon": "uno_yellow_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730018,
+        "bedrock_identifier": "uno:yellow_5",
+        "display_name": "UNO yellow 5",
+        "bedrock_options": {
+          "icon": "uno_yellow_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730019,
+        "bedrock_identifier": "uno:yellow_6",
+        "display_name": "UNO yellow 6",
+        "bedrock_options": {
+          "icon": "uno_yellow_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730020,
+        "bedrock_identifier": "uno:yellow_7",
+        "display_name": "UNO yellow 7",
+        "bedrock_options": {
+          "icon": "uno_yellow_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730021,
+        "bedrock_identifier": "uno:yellow_8",
+        "display_name": "UNO yellow 8",
+        "bedrock_options": {
+          "icon": "uno_yellow_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730022,
+        "bedrock_identifier": "uno:yellow_9",
+        "display_name": "UNO yellow 9",
+        "bedrock_options": {
+          "icon": "uno_yellow_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730023,
+        "bedrock_identifier": "uno:yellow_skip",
+        "display_name": "UNO yellow Skip",
+        "bedrock_options": {
+          "icon": "uno_yellow_skip",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730024,
+        "bedrock_identifier": "uno:yellow_reverse",
+        "display_name": "UNO yellow Reverse",
+        "bedrock_options": {
+          "icon": "uno_yellow_reverse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730025,
+        "bedrock_identifier": "uno:yellow_draw2",
+        "display_name": "UNO yellow +2",
+        "bedrock_options": {
+          "icon": "uno_yellow_draw2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730026,
+        "bedrock_identifier": "uno:green_0",
+        "display_name": "UNO green 0",
+        "bedrock_options": {
+          "icon": "uno_green_0",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730027,
+        "bedrock_identifier": "uno:green_1",
+        "display_name": "UNO green 1",
+        "bedrock_options": {
+          "icon": "uno_green_1",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730028,
+        "bedrock_identifier": "uno:green_2",
+        "display_name": "UNO green 2",
+        "bedrock_options": {
+          "icon": "uno_green_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730029,
+        "bedrock_identifier": "uno:green_3",
+        "display_name": "UNO green 3",
+        "bedrock_options": {
+          "icon": "uno_green_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730030,
+        "bedrock_identifier": "uno:green_4",
+        "display_name": "UNO green 4",
+        "bedrock_options": {
+          "icon": "uno_green_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730031,
+        "bedrock_identifier": "uno:green_5",
+        "display_name": "UNO green 5",
+        "bedrock_options": {
+          "icon": "uno_green_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730032,
+        "bedrock_identifier": "uno:green_6",
+        "display_name": "UNO green 6",
+        "bedrock_options": {
+          "icon": "uno_green_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730033,
+        "bedrock_identifier": "uno:green_7",
+        "display_name": "UNO green 7",
+        "bedrock_options": {
+          "icon": "uno_green_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730034,
+        "bedrock_identifier": "uno:green_8",
+        "display_name": "UNO green 8",
+        "bedrock_options": {
+          "icon": "uno_green_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730035,
+        "bedrock_identifier": "uno:green_9",
+        "display_name": "UNO green 9",
+        "bedrock_options": {
+          "icon": "uno_green_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730036,
+        "bedrock_identifier": "uno:green_skip",
+        "display_name": "UNO green Skip",
+        "bedrock_options": {
+          "icon": "uno_green_skip",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730037,
+        "bedrock_identifier": "uno:green_reverse",
+        "display_name": "UNO green Reverse",
+        "bedrock_options": {
+          "icon": "uno_green_reverse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730038,
+        "bedrock_identifier": "uno:green_draw2",
+        "display_name": "UNO green +2",
+        "bedrock_options": {
+          "icon": "uno_green_draw2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730039,
+        "bedrock_identifier": "uno:blue_0",
+        "display_name": "UNO blue 0",
+        "bedrock_options": {
+          "icon": "uno_blue_0",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730040,
+        "bedrock_identifier": "uno:blue_1",
+        "display_name": "UNO blue 1",
+        "bedrock_options": {
+          "icon": "uno_blue_1",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730041,
+        "bedrock_identifier": "uno:blue_2",
+        "display_name": "UNO blue 2",
+        "bedrock_options": {
+          "icon": "uno_blue_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730042,
+        "bedrock_identifier": "uno:blue_3",
+        "display_name": "UNO blue 3",
+        "bedrock_options": {
+          "icon": "uno_blue_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730043,
+        "bedrock_identifier": "uno:blue_4",
+        "display_name": "UNO blue 4",
+        "bedrock_options": {
+          "icon": "uno_blue_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730044,
+        "bedrock_identifier": "uno:blue_5",
+        "display_name": "UNO blue 5",
+        "bedrock_options": {
+          "icon": "uno_blue_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730045,
+        "bedrock_identifier": "uno:blue_6",
+        "display_name": "UNO blue 6",
+        "bedrock_options": {
+          "icon": "uno_blue_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730046,
+        "bedrock_identifier": "uno:blue_7",
+        "display_name": "UNO blue 7",
+        "bedrock_options": {
+          "icon": "uno_blue_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730047,
+        "bedrock_identifier": "uno:blue_8",
+        "display_name": "UNO blue 8",
+        "bedrock_options": {
+          "icon": "uno_blue_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730048,
+        "bedrock_identifier": "uno:blue_9",
+        "display_name": "UNO blue 9",
+        "bedrock_options": {
+          "icon": "uno_blue_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730049,
+        "bedrock_identifier": "uno:blue_skip",
+        "display_name": "UNO blue Skip",
+        "bedrock_options": {
+          "icon": "uno_blue_skip",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730050,
+        "bedrock_identifier": "uno:blue_reverse",
+        "display_name": "UNO blue Reverse",
+        "bedrock_options": {
+          "icon": "uno_blue_reverse",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730051,
+        "bedrock_identifier": "uno:blue_draw2",
+        "display_name": "UNO blue +2",
+        "bedrock_options": {
+          "icon": "uno_blue_draw2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730052,
+        "bedrock_identifier": "uno:wild",
+        "display_name": "UNO Wild",
+        "bedrock_options": {
+          "icon": "uno_wild",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730053,
+        "bedrock_identifier": "uno:wild_draw4",
+        "display_name": "UNO Wild +4",
+        "bedrock_options": {
+          "icon": "uno_wild_draw4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 730057,
+        "bedrock_identifier": "uno:back",
+        "display_name": "UNO Back",
+        "bedrock_options": {
+          "icon": "uno_back",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740000,
+        "bedrock_identifier": "cards:diamonds_3",
+        "display_name": "diamonds_3",
+        "bedrock_options": {
+          "icon": "card_diamonds_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740001,
+        "bedrock_identifier": "cards:diamonds_4",
+        "display_name": "diamonds_4",
+        "bedrock_options": {
+          "icon": "card_diamonds_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740002,
+        "bedrock_identifier": "cards:diamonds_5",
+        "display_name": "diamonds_5",
+        "bedrock_options": {
+          "icon": "card_diamonds_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740003,
+        "bedrock_identifier": "cards:diamonds_6",
+        "display_name": "diamonds_6",
+        "bedrock_options": {
+          "icon": "card_diamonds_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740004,
+        "bedrock_identifier": "cards:diamonds_7",
+        "display_name": "diamonds_7",
+        "bedrock_options": {
+          "icon": "card_diamonds_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740005,
+        "bedrock_identifier": "cards:diamonds_8",
+        "display_name": "diamonds_8",
+        "bedrock_options": {
+          "icon": "card_diamonds_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740006,
+        "bedrock_identifier": "cards:diamonds_9",
+        "display_name": "diamonds_9",
+        "bedrock_options": {
+          "icon": "card_diamonds_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740007,
+        "bedrock_identifier": "cards:diamonds_10",
+        "display_name": "diamonds_10",
+        "bedrock_options": {
+          "icon": "card_diamonds_10",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740008,
+        "bedrock_identifier": "cards:diamonds_j",
+        "display_name": "diamonds_j",
+        "bedrock_options": {
+          "icon": "card_diamonds_j",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740009,
+        "bedrock_identifier": "cards:diamonds_q",
+        "display_name": "diamonds_q",
+        "bedrock_options": {
+          "icon": "card_diamonds_q",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740010,
+        "bedrock_identifier": "cards:diamonds_k",
+        "display_name": "diamonds_k",
+        "bedrock_options": {
+          "icon": "card_diamonds_k",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740011,
+        "bedrock_identifier": "cards:diamonds_a",
+        "display_name": "diamonds_a",
+        "bedrock_options": {
+          "icon": "card_diamonds_a",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740012,
+        "bedrock_identifier": "cards:diamonds_2",
+        "display_name": "diamonds_2",
+        "bedrock_options": {
+          "icon": "card_diamonds_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740013,
+        "bedrock_identifier": "cards:clubs_3",
+        "display_name": "clubs_3",
+        "bedrock_options": {
+          "icon": "card_clubs_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740014,
+        "bedrock_identifier": "cards:clubs_4",
+        "display_name": "clubs_4",
+        "bedrock_options": {
+          "icon": "card_clubs_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740015,
+        "bedrock_identifier": "cards:clubs_5",
+        "display_name": "clubs_5",
+        "bedrock_options": {
+          "icon": "card_clubs_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740016,
+        "bedrock_identifier": "cards:clubs_6",
+        "display_name": "clubs_6",
+        "bedrock_options": {
+          "icon": "card_clubs_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740017,
+        "bedrock_identifier": "cards:clubs_7",
+        "display_name": "clubs_7",
+        "bedrock_options": {
+          "icon": "card_clubs_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740018,
+        "bedrock_identifier": "cards:clubs_8",
+        "display_name": "clubs_8",
+        "bedrock_options": {
+          "icon": "card_clubs_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740019,
+        "bedrock_identifier": "cards:clubs_9",
+        "display_name": "clubs_9",
+        "bedrock_options": {
+          "icon": "card_clubs_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740020,
+        "bedrock_identifier": "cards:clubs_10",
+        "display_name": "clubs_10",
+        "bedrock_options": {
+          "icon": "card_clubs_10",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740021,
+        "bedrock_identifier": "cards:clubs_j",
+        "display_name": "clubs_j",
+        "bedrock_options": {
+          "icon": "card_clubs_j",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740022,
+        "bedrock_identifier": "cards:clubs_q",
+        "display_name": "clubs_q",
+        "bedrock_options": {
+          "icon": "card_clubs_q",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740023,
+        "bedrock_identifier": "cards:clubs_k",
+        "display_name": "clubs_k",
+        "bedrock_options": {
+          "icon": "card_clubs_k",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740024,
+        "bedrock_identifier": "cards:clubs_a",
+        "display_name": "clubs_a",
+        "bedrock_options": {
+          "icon": "card_clubs_a",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740025,
+        "bedrock_identifier": "cards:clubs_2",
+        "display_name": "clubs_2",
+        "bedrock_options": {
+          "icon": "card_clubs_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740026,
+        "bedrock_identifier": "cards:hearts_3",
+        "display_name": "hearts_3",
+        "bedrock_options": {
+          "icon": "card_hearts_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740027,
+        "bedrock_identifier": "cards:hearts_4",
+        "display_name": "hearts_4",
+        "bedrock_options": {
+          "icon": "card_hearts_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740028,
+        "bedrock_identifier": "cards:hearts_5",
+        "display_name": "hearts_5",
+        "bedrock_options": {
+          "icon": "card_hearts_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740029,
+        "bedrock_identifier": "cards:hearts_6",
+        "display_name": "hearts_6",
+        "bedrock_options": {
+          "icon": "card_hearts_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740030,
+        "bedrock_identifier": "cards:hearts_7",
+        "display_name": "hearts_7",
+        "bedrock_options": {
+          "icon": "card_hearts_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740031,
+        "bedrock_identifier": "cards:hearts_8",
+        "display_name": "hearts_8",
+        "bedrock_options": {
+          "icon": "card_hearts_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740032,
+        "bedrock_identifier": "cards:hearts_9",
+        "display_name": "hearts_9",
+        "bedrock_options": {
+          "icon": "card_hearts_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740033,
+        "bedrock_identifier": "cards:hearts_10",
+        "display_name": "hearts_10",
+        "bedrock_options": {
+          "icon": "card_hearts_10",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740034,
+        "bedrock_identifier": "cards:hearts_j",
+        "display_name": "hearts_j",
+        "bedrock_options": {
+          "icon": "card_hearts_j",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740035,
+        "bedrock_identifier": "cards:hearts_q",
+        "display_name": "hearts_q",
+        "bedrock_options": {
+          "icon": "card_hearts_q",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740036,
+        "bedrock_identifier": "cards:hearts_k",
+        "display_name": "hearts_k",
+        "bedrock_options": {
+          "icon": "card_hearts_k",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740037,
+        "bedrock_identifier": "cards:hearts_a",
+        "display_name": "hearts_a",
+        "bedrock_options": {
+          "icon": "card_hearts_a",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740038,
+        "bedrock_identifier": "cards:hearts_2",
+        "display_name": "hearts_2",
+        "bedrock_options": {
+          "icon": "card_hearts_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740039,
+        "bedrock_identifier": "cards:spades_3",
+        "display_name": "spades_3",
+        "bedrock_options": {
+          "icon": "card_spades_3",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740040,
+        "bedrock_identifier": "cards:spades_4",
+        "display_name": "spades_4",
+        "bedrock_options": {
+          "icon": "card_spades_4",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740041,
+        "bedrock_identifier": "cards:spades_5",
+        "display_name": "spades_5",
+        "bedrock_options": {
+          "icon": "card_spades_5",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740042,
+        "bedrock_identifier": "cards:spades_6",
+        "display_name": "spades_6",
+        "bedrock_options": {
+          "icon": "card_spades_6",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740043,
+        "bedrock_identifier": "cards:spades_7",
+        "display_name": "spades_7",
+        "bedrock_options": {
+          "icon": "card_spades_7",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740044,
+        "bedrock_identifier": "cards:spades_8",
+        "display_name": "spades_8",
+        "bedrock_options": {
+          "icon": "card_spades_8",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740045,
+        "bedrock_identifier": "cards:spades_9",
+        "display_name": "spades_9",
+        "bedrock_options": {
+          "icon": "card_spades_9",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740046,
+        "bedrock_identifier": "cards:spades_10",
+        "display_name": "spades_10",
+        "bedrock_options": {
+          "icon": "card_spades_10",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740047,
+        "bedrock_identifier": "cards:spades_j",
+        "display_name": "spades_j",
+        "bedrock_options": {
+          "icon": "card_spades_j",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740048,
+        "bedrock_identifier": "cards:spades_q",
+        "display_name": "spades_q",
+        "bedrock_options": {
+          "icon": "card_spades_q",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740049,
+        "bedrock_identifier": "cards:spades_k",
+        "display_name": "spades_k",
+        "bedrock_options": {
+          "icon": "card_spades_k",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740050,
+        "bedrock_identifier": "cards:spades_a",
+        "display_name": "spades_a",
+        "bedrock_options": {
+          "icon": "card_spades_a",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740051,
+        "bedrock_identifier": "cards:spades_2",
+        "display_name": "spades_2",
+        "bedrock_options": {
+          "icon": "card_spades_2",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740052,
+        "bedrock_identifier": "cards:back",
+        "display_name": "Card Back",
+        "bedrock_options": {
+          "icon": "card_back",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740053,
+        "bedrock_identifier": "cards:joker",
+        "display_name": "鬼牌",
+        "bedrock_options": {
+          "icon": "card_joker",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740054,
+        "bedrock_identifier": "cards:heartattack_icon",
+        "display_name": "心臟病",
+        "bedrock_options": {
+          "icon": "card_heartattack_icon",
+          "creative_category": "items"
+        }
+      },
+      {
+        "type": "legacy",
+        "custom_model_data": 740055,
+        "bedrock_identifier": "cards:oldmaid_icon",
+        "display_name": "抽鬼牌",
+        "bedrock_options": {
+          "icon": "card_oldmaid_icon",
+          "creative_category": "items"
+        }
+      }
+    ]
+  }
 }
