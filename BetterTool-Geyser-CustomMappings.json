@@ -12,9 +12,6 @@
           "protection_value": 3,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       },
       {
@@ -27,9 +24,6 @@
           "protection_value": 5,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       },
       {
@@ -42,9 +36,6 @@
           "protection_value": 6,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       },
       {
@@ -57,9 +48,6 @@
           "protection_value": 5,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       },
       {
@@ -72,9 +60,6 @@
           "protection_value": 8,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       },
       {
@@ -87,9 +72,6 @@
           "protection_value": 8,
           "creative_category": "equipment",
           "creative_group": "itemGroup.name.chestplate"
-        },
-        "components": {
-          "minecraft:max_stack_size": 1
         }
       }
     ]
